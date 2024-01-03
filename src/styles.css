@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: rgb(116, 116, 116);
+}
+
+.tweet-cont {
+    padding: 4px 8;
+}
+
+body {
+    height: 80vh;
+}
+
+#tweets-cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 12rem;
+    padding-top: 1rem;
+}
+
+.tweet-cont {
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    padding: 2px 8px;
+    margin: 2px 0;
+}
+
+.tweet-author {
+    font-weight: bolder;
+}
+
+.tweet-cont-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.create-modal-cont {
+    background-color: white;
+    position: absolute;
+    height: 12rem;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.edit-modal-cont {
+    background-color: white;
+    position: absolute;
+    height: 12rem;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-modal-cont textarea, .edit-modal-cont textarea {
+    background-color: gainsboro;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 4rem;
+    width: 30rem;
+    padding: 0.25rem;
+    word-wrap:normal;
+}
+
+.modal-btn-cont button {
+    margin-inline: 0.25rem;
+    border: 0.5px solid black;
+    border-radius: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.tweet-date {
+    font-size: 0.8rem;
+}
+
+.tweet-cont-footer button {
+    border: 0.5px solid black;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.create-btn {
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    padding-inline: 0.5rem;
+}
